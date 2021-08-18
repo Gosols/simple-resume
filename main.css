@@ -1,0 +1,66 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: teal;
+    margin: 0;
+}
+hr {
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.subTitle {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experienceWrapper {
+    width: 75%;
+    margin-left: 10px;
+}
+
+.sideBar {
+    margin-right: 10px;
+    width: 25%;
+    overflow-wrap: break-word;
+}
+
+.summaryText {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.nameWrapper {
+    max-width: max-content;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 2px 2px 6px grey;
+}
+.paper {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    margin: auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.wrapper {
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+}
