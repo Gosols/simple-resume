@@ -1,10 +1,14 @@
+:root {
+  --grey: #5c5c5c;
+}
+
 body {
   font-family: "Courier New", Courier, monospace;
   background: grey;
   margin: 0;
 }
 hr {
-  border: 0.5px solid black;
+  border: 0.5px dotted lightgrey;
 }
 
 h1 {
@@ -63,6 +67,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: var(--grey);
 }
 
 img {
@@ -76,6 +81,7 @@ img {
 .summaryText {
   padding: 5px;
   font-style: italic;
+  color: var(--grey);
 }
 
 /* EXPERIENCE */
@@ -95,6 +101,7 @@ img {
 
 .expDescription {
   font-size: 14px;
+  color: var(--grey);
 }
 
 .expPosition {
@@ -120,6 +127,12 @@ img {
   margin-bottom: 40px;
 }
 
+.sideSegment span,
+.sideSegment p,
+.sideSegment a {
+  color: var(--grey);
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -137,15 +150,15 @@ li span {
 
 @media only screen and (max-width: 425px) {
   .expHeader {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .expPosition {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .expDescription {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .duration {
@@ -171,14 +184,17 @@ li span {
 
   .nameWrapper {
     margin: auto;
+    margin-bottom: 70px;
   }
 
   .summaryText {
+    text-align: center;
     font-size: 25px;
   }
 
   .paper {
-    height: auto;
+    height: 100%;
+    width: 100vh;
   }
 
   h1 {
